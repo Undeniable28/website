@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/responsive-food-website-main/assets/img/favicon.svg" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/responsive-food-website-main/assets/css/styles.css">
+    <title>Pork Adobo Recipe</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="/responsive-food-website-main/home.html" class="nav__logo">
+                <i class="ri-bowl-line nav__logo-icon"></i> SnackSmart
+            </a>
+
+
+            <div class="nav__btns">
+                <!-- Go back button -->
+                <a href="/responsive-food-website-main/Meal Plans/Option1.html"><i class="ri-arrow-go-back-line nav__logo"></i></a>
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--==================== CHATBOT ====================-->
+        <div class="chatbot">
+            <div class="chatbot__button" id="chatbot-button">
+                <i class="ri-chat-3-line"></i>
+            </div>
+            <div class="chatbot__window" id="chatbot-window">
+                <div class="chatbot__header">
+                    <h3>Chat with us!</h3>
+                    <button class="chatbot__close" id="chatbot-close">&times;</button>
+                </div>
+                <div class="chatbot__messages" id="chatbot-messages">
+                    <!-- Messages will be displayed here -->
+                </div>
+                <div class="chatbot__input-container">
+                    <input type="text" class="chatbot__input" id="chatbot-input" placeholder="Type a message...">
+                    <button class="chatbot__send" id="chatbot-send">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== RECIPE ====================-->
+        <section class="recipe section container">
+            <h1 class="recipe__title">Pork Adobo</h1>
+            
+            <div class="recipe__content">
+                <div class="row">
+                    <!-- Left Box: Food Image -->
+                    <div class="recipe__image-box">
+                        <img src="https://www.foxyfolksy.com/wp-content/uploads/2017/06/pork-adobo-640.jpg" alt="Pork Adobo" class="recipe__image">
+                    </div>
+                    <!-- Right Box: Reason to Eat -->
+                    <div class="recipe__reason-box">
+                        <h3><i class="ri-heart-fill"></i>Why You Should Eat This</h3>
+                        <p>Pork Adobo is a delicious and hearty dish that is rich in flavor and provides essential nutrients. It's a great source of protein and can be enjoyed with rice for a complete meal.</p>
+                    </div>
+                </div>
+
+                <div class="recipe__ingredients-box">
+                    <h3><i class="ri-list-check-2"></i>Ingredients</h3>
+                    <div class="recipe__ingredients">
+                        <ul>
+                            <li>Pork Belly</li>
+                            <li>Garlic</li>
+                            <li>Dried Bay Leaves</li>
+                            <li>Vinegar</li>
+                            <li>Soy Sauce</li>
+                            <li>Peppercorn</li>
+                            <li>Water</li>
+                            <li>Salt</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Instructions Section -->
+                <div class="recipe__instructions-box">
+                    <h3><i class="ri-book-open-line"></i>Instructions</h3>
+                    <div class="recipe__instructions">
+                        <ol>
+                            <li>Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour.</li>
+                            <li>Heat the pot and put in the marinated pork belly. Cook this all up for a few minutes.</li>
+                            <li>Pour the remaining marinade including the garlic.</li>
+                            <li>Add water, whole peppercorn, and dried bay leaves. Bring to a boil and simmer for 40 minutes to 1 hour.</li>
+                            <li>Add vinegar and simmer for 12 to 15 minutes.</li>
+                            <li>Add salt to taste.</li>
+                            <li>Serve hot. Share and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Nutrition Facts -->
+                <div class="nutrition-facts">
+                    <h3><i class="ri-nutrition-line"></i>Nutrition Facts</h3>
+                    <table class="nutrition__table">
+                        <tbody>
+                            <tr>
+                                <th>Serving Size</th>
+                                <td>1 cup (241g)</td>
+                            </tr>
+                            <tr>
+                                <th>Calories</th>
+                                <td>454</td>
+                            </tr>
+                            <tr>
+                                <th>Total Fat</th>
+                                <td>25g (32% DV)</td>
+                            </tr>
+                            <tr>
+                                <th>Saturated Fat</th>
+                                <td>9.1g (45% DV)</td>
+                            </tr>
+                            <tr>
+                                <th>Cholesterol</th>
+                                <td>138mg (46% DV)</td>
+                            </tr>
+                            <tr>
+                                <th>Sodium</th>
+                                <td>2407mg (105% DV)</td>
+                            </tr>
+                            <tr>
+                                <th>Protein</th>
+                                <td>50g</td>
+                            </tr>
+                            <tr>
+                                <th>Carbohydrates</th>
+                                <td>5.1g (2% DV)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="nutrition__note">*The % Daily Value tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="/responsive-food-website-main/home.html" class="footer__logo">
+                    <i class="ri-bowl-line footer__logo-icon"></i> SnackSmart
+                </a>
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay updated
+                </h3>
+
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">4027 - Philippines</li>
+                    <li class="footer__information">Laguna</li>
+                    <li class="footer__information">Calamba</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+63 910 340 8782</li>
+                    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Donations are Appreciated
+                </h3>
+
+                <div class="footer__cards">
+                    <img src="/responsive-food-website-main/assets/img/card1.png" alt="" class="footer__card">
+                    <img src="/responsive-food-website-main/assets/img/card2.png" alt="" class="footer__card">
+                    <img src="/responsive-food-website-main/assets/img/card3.png" alt="" class="footer__card">
+                    <img src="/responsive-food-website-main/assets/img/card4.png" alt="" class="footer__card">
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; Pardillo. All rights reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="/responsive-food-website-main/assets/js/scrollreveal.min.js"></script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="/responsive-food-website-main/assets/js/main.js"></script>
+</body>
+</html>
